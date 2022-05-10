@@ -1,0 +1,10 @@
+
+<h1> About page </h1>
+
+<p>The title of this site is: {{ app_globals.site_title }}.</p>
+
+<ul>
+    {% for plugin in app_globals.plugins %}
+      <li>{{ plugin }}</li>
+    {% endfor %}
+  </ul>
